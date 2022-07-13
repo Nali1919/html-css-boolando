@@ -5,9 +5,6 @@
     box-sizing: border-box;
 }
 
-body {
-    color: white;
-}
 
 /* fine Generale */
 header {
@@ -15,7 +12,22 @@ header {
     height: 40px;
     position: fixed;
     display: flex;
-    justify-content: space-between;
     width: 100%;
     padding: 10px 10px;
+
+}
+
+.categorie {
+    position: relative;
+    left: 100px;
+    color: white;
+}
+
+.logoposition {
+    position: relative;
+    left: 500px
+}
+
+.logo {
+    width: 60px;
 }
