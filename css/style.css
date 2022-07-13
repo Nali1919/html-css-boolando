@@ -5,11 +5,18 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f6f6f6;
+}
+
 span,
 h3 {
     color: white;
 }
 
+h2 {
+    font-size: small;
+}
 
 /* fine Generale */
 
@@ -18,10 +25,23 @@ header {
     height: 40px;
     position: fixed;
     display: flex;
+    justify-content: space-around;
     width: 100%;
     padding: 10px 10px;
 
 }
+
+.logo {
+    position: relative;
+    right: 50px;
+
+}
+
+.icon {
+    color: white;
+}
+
+.categorie {}
 
 footer {
 
@@ -30,14 +50,14 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 10px 10px;
+
+
 }
 
 .boolando {
-    position: relative;
-    left: 140px;
-
+    margin-left: 140px;
 }
+
 
 .bottone-sconto {
     font-size: 15px;
@@ -46,8 +66,8 @@ footer {
     height: 20px;
     background-color: red;
     color: white;
-    position: relative;
-    bottom: 60px;
+    position: absolute;
+    bottom: 90px;
 }
 
 .sostenibilità {
@@ -57,8 +77,8 @@ footer {
     height: 20px;
     background-color: green;
     color: white;
-    position: relative;
-    bottom: 80px;
+    position: absolute;
+    bottom: 90px;
     left: 45px;
 
 
@@ -73,34 +93,12 @@ footer {
 }
 
 .informazioni {
-    position: relative;
-    left: 140px;
+    margin-left: 140px;
 }
 
 .card img {
     width: 100%;
 }
-
-
-
-
-
-
-.categorie {
-    position: relative;
-    left: 100px;
-    color: white;
-}
-
-.logoposition {
-    position: relative;
-    left: 500px
-}
-
-.logo {
-    width: 60px;
-}
-
 
 .card {
     margin: 8px 8px;
@@ -110,6 +108,8 @@ footer {
     position: relative;
 
 }
+
+
 
 .contenitore {
     display: flex;
@@ -121,14 +121,17 @@ footer {
 
 .cuore {
 
+    background-color: white;
     color: #000;
     position: absolute;
-    top: 58px;
-    right: 40px;
-    font-size: 40px;
+    top: 10px;
+    right: 0px;
+    font-size: 50px;
     cursor: default;
-    /* cambiamento solo visivo */
-    /*pointer-events:none*/
-    /* cambia anche l'interattività */
+    pointer-events: visible;
 
+}
+
+.cuore:hover {
+    color: red;
 }
