@@ -84,6 +84,19 @@ footer {
 
 }
 
+.sostenibilitàlast {
+    font-size: 15px;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    position: absolute;
+    bottom: 90px;
+
+
+}
+
 .prezzo {
     color: red;
 }
