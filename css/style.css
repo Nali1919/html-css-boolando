@@ -5,8 +5,14 @@
     box-sizing: border-box;
 }
 
+span,
+h3 {
+    color: white;
+}
+
 
 /* fine Generale */
+
 header {
     background-color: orange;
     height: 40px;
@@ -16,6 +22,69 @@ header {
     padding: 10px 10px;
 
 }
+
+footer {
+
+    background-color: black;
+    row-gap: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 10px;
+}
+
+.boolando {
+    position: relative;
+    left: 140px;
+
+}
+
+.bottone-sconto {
+    font-size: 15px;
+    text-align: center;
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    color: white;
+    position: relative;
+    bottom: 60px;
+}
+
+.sostenibilità {
+    font-size: 15px;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+    background-color: green;
+    color: white;
+    position: relative;
+    bottom: 80px;
+    left: 45px;
+
+
+}
+
+.prezzo {
+    color: red;
+}
+
+.sconto {
+    color: black;
+}
+
+.informazioni {
+    position: relative;
+    left: 140px;
+}
+
+.card img {
+    width: 100%;
+}
+
+
+
+
+
 
 .categorie {
     position: relative;
@@ -30,4 +99,36 @@ header {
 
 .logo {
     width: 60px;
+}
+
+
+.card {
+    margin: 8px 8px;
+    width: calc(100% / 3 - 16px);
+    flex-shrink: 0;
+    background-color: #f6f6f6;
+    position: relative;
+
+}
+
+.contenitore {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 150px;
+
+}
+
+.cuore {
+
+    color: #000;
+    position: absolute;
+    top: 58px;
+    right: 40px;
+    font-size: 40px;
+    cursor: default;
+    /* cambiamento solo visivo */
+    /*pointer-events:none*/
+    /* cambia anche l'interattività */
+
 }
