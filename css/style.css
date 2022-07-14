@@ -10,7 +10,9 @@ body {
 }
 
 span,
-h3 {
+h3,
+p,
+i {
     color: white;
 }
 
@@ -41,22 +43,32 @@ header {
     color: white;
 }
 
-.categorie {}
+
 
 footer {
 
     background-color: black;
     row-gap: 15px;
-    display: flex;
-    flex-direction: column;
     width: 100%;
-
+    display: flex;
+    justify-content: space-around;
+    column-gap: 520px;
+    padding: 20px;
 
 }
 
-.boolando {
-    margin-left: 140px;
+.icone {
+    display: flex;
+    column-gap: 5px;
+    margin-top: 5px;
 }
+
+.information {
+    flex-direction: column;
+    display: flex;
+    row-gap: 5px;
+}
+
 
 
 .bottone-sconto {
@@ -103,10 +115,6 @@ footer {
 
 .sconto {
     color: black;
-}
-
-.informazioni {
-    margin-left: 140px;
 }
 
 .card img {
